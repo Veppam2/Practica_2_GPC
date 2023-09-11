@@ -1,0 +1,52 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+    
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #2334d3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight:bold;
+    font-size:24px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: solid 1px;/* optional */
+  }
+    
+  @media only screen and (max-width: 600px) {
+    body {background-color: lightblue;}
+    #div_form_container{width:90%;}
+  } 
+  @media only screen and (min-width: 600px) {
+    body {background-color: white;}
+    #div_form_container{width:70%;}
+  }
